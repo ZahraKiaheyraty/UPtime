@@ -1,0 +1,15 @@
+apply from: "$rootDir/private/secret.gradle"
+
+ext {
+    applicationPackageId = "com.madlymad.uptime"
+    applicationVersionName = "0.16"
+    applicationVersionCode = 17
+
+    // Target & Compile SDK version
+    appSdkVersion = 29
+    appMinSdkVersion = 19
+    appBuildToolsVersion = "29.0.2"
+
+    // Library dependencies
+    kotlin_version = '1.4.10'
+}

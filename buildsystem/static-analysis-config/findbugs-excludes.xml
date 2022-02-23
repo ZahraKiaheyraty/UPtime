@@ -1,0 +1,17 @@
+<FindBugsFilter>
+
+    <Match>
+        <Or>
+            <Class name="~.*\.R\$.*" />
+            <Class name="~.*\.R\$.*" />
+            <Class name="~.*com.madlymad.uptime.Test" />
+            <Class name="~.*com.madlymad.uptime.Test\$.*" />
+            <Class name="~.*\.Manifest\$.*" />
+        </Or>
+    </Match>
+
+    <Match>
+        <Source name="~.*\.kt" />
+    </Match>
+
+</FindBugsFilter>
